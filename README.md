@@ -1,22 +1,20 @@
-# encrypt-decrypt-cli-python
-Securely encrypt and decrypt files in Python with a user-friendly command-line interface. This project employs Fernet symmetric key encryption, enhancing security through PBKDF2-based password key derivation. Users can choose between encryption and decryption, with password authentication for both operations.
+# Encrypt Decrypt CLI & GUI (Python)
 
-Features:
-File encryption using Fernet symmetric key encryption
-File decryption with password verification
-Password-based key derivation for enhanced security
-Simple and intuitive command-line interface
-Easily adaptable for various file types and use cases
+A secure and user-friendly tool for encrypting and decrypting files using Python. This project includes both a **Command-Line Interface (CLI)** and a **Graphical User Interface (GUI)**. It uses **Fernet symmetric encryption** with **PBKDF2-based password-derived keys** for strong data protection.
 
-Getting Started:
-Clone the repository to your local machine.
-Install the required dependencies (cryptography library).
-Follow the provided examples to encrypt and decrypt files.
+## Features
 
-Usage:
-Choose an option: Encrypt or Decrypt
-Enter the password for encryption or decryption
-Input the file name and desired output file name
+- **Secure File Encryption** using Fernet (AES with HMAC)
+- **Password-Based Key Derivation** using PBKDF2
+- **Decryption with Password Verification**
+- **Command-Line Interface (`en_dec_.py`)**
+- **Graphical User Interface (`en_dec_gui.py`)**
+- Compatible with various file types and easily extendable
 
-Contributing:
-Contributions are welcome! If you have suggestions, improvements, or feature requests, feel free to open an issue or submit a pull request.
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/armanhrshaikh/encrypt-decrypt-cli-python.git
+cd encrypt-decrypt-cli-python
